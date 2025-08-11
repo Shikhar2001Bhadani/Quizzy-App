@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  border-color: #e1e1e1;
+}
+
+div[data-tippy-root] {
+  width: 100%;
+}
