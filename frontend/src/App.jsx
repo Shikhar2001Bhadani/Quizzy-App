@@ -1,5 +1,5 @@
 import React, { createElement, lazy, Suspense } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Loading from "./components/common/Loading";
 import NotFoundPage from "./pages/404";
 import { studentRoutes, teacherRoutes } from "./routes";
